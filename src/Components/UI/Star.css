@@ -1,5 +1,5 @@
 .star {
-  background-color: hsl(207, 18%, 22%);
+  background-color: rgb(40, 50, 59);
   width: 55px;
   height: 55px;
   border-radius: 50px;
@@ -9,7 +9,6 @@
   left: 40px;
 }
 
-img {
-  height: 30px;
-  width: 30px;
+.starImage {
+  margin: 18px 10px 10px 11px;
 }

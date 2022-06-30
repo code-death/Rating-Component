@@ -1,5 +1,6 @@
 import './ButtonGroup.css'
 import Button from './Button'
+import { useState } from 'react'
 
 const buttons = [
   { name: 'button1', id: 1, key: 1, type: 'button' },
@@ -10,21 +11,37 @@ const buttons = [
 ]
 
 const ButtonGroup = props => {
+  const [clickValue, setClickValue] = useState('')
+  const handleClick = e => {
+    setClickValue(e.target.id)
+  }
+  const handleSubmit = e => {
+    props.onSave(clickValue)
+  }
+
   return (
     <>
       <div className='ButtonGroup'>
         {buttons.map(value => {
           return (
             <Button
+              onClick={handleClick}
               class='rating-button'
               type={value.type}
               name={value.name}
               id={value.id}
+              key={value.key}
             />
           )
         })}
       </div>
-      <Button class='Submit' type='submit' name='submit' id='SUBMIT' />
+      <Button
+        onClick={handleSubmit}
+        class='Submit'
+        type='submit'
+        name='submit'
+        id='SUBMIT'
+      />
     </>
   )
 }

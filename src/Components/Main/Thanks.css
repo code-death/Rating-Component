@@ -1,0 +1,35 @@
+.Thanks {
+  text-align: center;
+}
+
+.Thanks #rating {
+  background-color: rgb(40, 49, 57);
+  position: inherit;
+  width: max-content;
+  border-radius: 50px;
+  padding: 9px 25px;
+  color: hsla(25, 97%, 53%, 0.769);
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+
+.Thanks p {
+  margin-top: 1px;
+  font-size: 1rem;
+  font-weight: 200;
+  color: rgba(149, 158, 172, 0.815);
+  margin: 0 43px;
+}
+
+.image {
+  margin: 50px auto 40px;
+}
+
+.Thanks h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
