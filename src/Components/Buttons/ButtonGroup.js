@@ -14,7 +14,14 @@ const ButtonGroup = props => {
     <>
       <div className='ButtonGroup'>
         {buttons.map(value => {
-          return <Button type={value.type} name={value.name} id={value.id} />
+          return (
+            <Button
+              class='rating-button'
+              type={value.type}
+              name={value.name}
+              id={value.id}
+            />
+          )
         })}
       </div>
     </>
