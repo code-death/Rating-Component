@@ -1,7 +1,14 @@
 import './App.css'
+import Rating from './Components/Main/Rating'
+import Thanks from './Components/Main/Thanks'
 
 function App() {
-  return <div></div>
+  return (
+    <>
+      <Rating />
+      <Thanks />
+    </>
+  )
 }
 
 export default App
