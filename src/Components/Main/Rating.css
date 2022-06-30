@@ -1,0 +1,21 @@
+.rating h2 {
+  position: relative;
+  top: 70px;
+  left: 40px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.rating p {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 200;
+  color: hsla(217, 12%, 63%, 0.5);
+  margin: 15px 0px;
+  top: 70px;
+  left: 40px;
+  padding-right: 70px;
+  line-height: 1.75rem;
+  font-weight: 400;
+}

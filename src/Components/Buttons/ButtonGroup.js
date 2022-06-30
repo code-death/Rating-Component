@@ -24,6 +24,7 @@ const ButtonGroup = props => {
           )
         })}
       </div>
+      <Button class='Submit' type='submit' name='submit' id='SUBMIT' />
     </>
   )
 }

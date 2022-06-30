@@ -1,0 +1,33 @@
+.rating-button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: hsl(207, 18%, 22%);
+  border: none;
+  cursor: pointer;
+  color: hsl(217, 12%, 63%);
+}
+
+.rating-button:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.Submit {
+  background-color: hsl(25, 97%, 53%);
+  width: 370px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 0.98rem;
+  font-family: overpass, sans-serif;
+  letter-spacing: 2px;
+  margin: 30px 40px 0 40px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  font-weight: 700;
+}
