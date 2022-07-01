@@ -1,0 +1,41 @@
+[33mcommit 3f8b3621489e8d1f83773664bf4675f123f0e5f4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: code-death <poorvanshkavta938@gmial.com>
+Date:   Fri Jul 1 00:21:31 2022 +0530
+
+    Completed with full functionality
+
+[33mcommit 104d1bced0b8627909ec68f2be295aabf014d018[m
+Author: code-death <poorvanshkavta938@gmial.com>
+Date:   Thu Jun 30 21:40:25 2022 +0530
+
+    Rating Card UI made
+
+[33mcommit 2c87c1ad586e7e7380f904036ad6b49d260dba9d[m
+Author: code-death <poorvanshkavta938@gmial.com>
+Date:   Thu Jun 30 16:04:37 2022 +0530
+
+    Made the content box and star back
+
+[33mcommit b9521a88420f929871a61cb2ab1f0058c0ab45e8[m
+Author: code-death <poorvanshkavta938@gmial.com>
+Date:   Thu Jun 30 15:19:18 2022 +0530
+
+    Added some styling
+
+[33mcommit 99955f4fd9d8f04dc610c86cd68a4359a92acbab[m
+Author: code-death <poorvanshkavta938@gmial.com>
+Date:   Thu Jun 30 10:50:54 2022 +0530
+
+    Made the components
+
+[33mcommit 3820426f074541d944232ce4f837edfd13ead2a0[m
+Author: code-death <poorvanshkavta938@gmial.com>
+Date:   Thu Jun 30 10:19:02 2022 +0530
+
+    First Commit
+
+[33mcommit 62c152701fb53fb561c7af03a27d3b8adabbddf9[m
+Author: code-death <poorvanshkavta938@gmial.com>
+Date:   Thu Jun 30 10:16:12 2022 +0530
+
+    Initialize project using Create React App
